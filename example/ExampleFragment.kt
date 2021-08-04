@@ -1,5 +1,4 @@
-class ExampleFragment :
-    BaseFragment<ExampleViewModel>(R.layout.fragment_opening_new_card),
+class ExampleFragment : BaseFragment<ExampleViewModel>(R.layout.fragment_opening_new_card),
     ProductsApi.SomeListener {
 
     companion object {
