@@ -1,4 +1,4 @@
-class OpeningNewCardViewModel(
+class ExampleViewModel(
     private val products: MutableLiveData<List<CardProduct>>,
     private val _selectedProduct: MutableLiveData<CardProduct>,
     private val exampleRepository: ExampleRepository
